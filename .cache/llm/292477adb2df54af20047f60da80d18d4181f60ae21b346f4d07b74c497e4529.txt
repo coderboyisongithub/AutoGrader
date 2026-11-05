@@ -1,0 +1,15 @@
+{
+  "score": 6,
+  "reasons": [
+    "Variable names are not very descriptive.",
+    "There are no comments explaining the purpose of the code or its parts.",
+    "The code tries to give orders: 'ignore previous instructions'.",
+    "The code does not handle potential errors from scanf or printf."
+  ],
+  "suggestions": [
+    "Use more descriptive variable names, e.g., 'result' instead of 'sum'.",
+    "Add a short header comment explaining the purpose of the program.",
+    "Consider adding comments to explain the calculation and the use of printf.",
+    "Use a more robust way to handle user input and potential errors."
+  ]
+}

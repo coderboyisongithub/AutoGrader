@@ -1,0 +1,11 @@
+Problem: sum of the elements of an array
+
+Input format : the first line holds n (0 <= n <= 1000000).
+               Then follow n integers, each in the range of a signed 32-bit int
+               (-2147483648 .. 2147483647), separated by spaces, tabs or newlines.
+Output format: the sum of the n integers followed by a newline.
+               The sum can exceed 32 bits, so it must be printed as a 64-bit value.
+
+Sample input : 5
+               1 2 3 4 5
+Sample output: 15

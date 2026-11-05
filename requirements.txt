@@ -10,9 +10,13 @@
 
 # Web front end (front_app.py). Only imported when the UI is started, so the
 # command-line mode (python front_app.py --cli ...) works without it.
-# Pinned below version 6 because the theme API (used for the plain grey UI)
+# Pinned below version 6 because the Blocks theme API used by the dashboard
 # moved in Gradio 6.
 gradio>=4.44,<6
+
+# PDF and Excel downloads from the analysis dashboard
+reportlab>=4.0
+openpyxl>=3.1
 
 # HTTP client used by llm_client.py to talk to the local Ollama server
 # (POST http://localhost:11434/api/chat). Needed by every LLM-based part:

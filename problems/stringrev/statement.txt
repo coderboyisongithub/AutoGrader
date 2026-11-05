@@ -1,0 +1,9 @@
+Problem: reverse a string
+
+Input format : one line of text with 0 to 1000 characters. The characters are printable
+               ASCII (letters, digits, punctuation) and spaces; every space counts as a character.
+Output format: the same characters in reverse order, followed by a newline.
+               An empty input line gives an empty output line.
+
+Sample input : hello world
+Sample output: dlrow olleh
